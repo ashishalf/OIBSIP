@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   /* text-decoration: none; */
+    color: white;
+    font-family: 'Caveat', cursive;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: rgb(255, 149, 0);
+}
+.container{
+    text-align: center;
+    padding: 280px 0;
+}
+.container h1{
+    font-size: 70px;
+}
+.container h3{
+    font-size: 40px;
+}
+.image{
+    padding: 300px 0;
+    width: 100%;
+    background-image: url(./img.png);
+    background-position: center;
+    background-size: cover;
+}
+.biography{
+    text-align: left;
+    padding: 100px 400px;
+}
+.biography p{
+    padding-top: 50px;
+    font-size: 40px;
+}
+
+.biography h1{
+    font-size: 60px;
+}
+
+hr{
+    margin-bottom: 40px;
+    width: 70%;
+    color: black;
+}
+.footer p{
+    text-align: center;
+    margin-bottom: 20px;
+}
